@@ -15,6 +15,17 @@
 - Used Racoon Detection Dataset available on Kaggle.
 - [Racoon Detection](https://www.kaggle.com/debasisdotcom/racoon-detection)
 
+## Inference
+```  
+$ python3 infer.py -i <path_to_image> -m <path_to_model>
+```
+&nbsp;&nbsp;&nbsp;&nbsp; Results are stored in Output Folder
+
+
+## Results
+![alt-text-1](Dataset/Test_img/3.jpg) ![alt-text-2](Output/3.jpg)
+
+
 ## Pretrained Model 
 - Pytorch implementation Yolo V1 Model 
 - Model Trained with 150 epochs.
